@@ -42,84 +42,84 @@ public class Player {
 
 		for(int i = 0; i < characterSkills.length; i++){
 			if(i == 0){
-				characterSkills[i] = new CharacterSkill("Endurance", 9, 9, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Endurance", characterAbilities[0].value, characterAbilities[0].value, characterAbilities[5].value);
+			} //Strength, Strength, Aptitude
 
 			if(i == 1){
-				characterSkills[i] = new CharacterSkill("Acrobatics", 4, 5, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Acrobatics", characterAbilities[3].value, characterAbilities[4].value, characterAbilities[5].value);
+			} // Agility, Dexterity, Aptitude
 
 			if(i == 2){
-				characterSkills[i] = new CharacterSkill("Stealth", 4, 5, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Stealth", characterAbilities[3].value, characterAbilities[4].value, characterAbilities[5].value);
+			} // Agility, Dexterity, Aptitude
 
 			if(i == 3){
-				characterSkills[i] = new CharacterSkill("Diplomacy", 4, 8, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Diplomacy", characterAbilities[2].value, characterAbilities[1].value, characterAbilities[5].value);
+			} // Charisma, Intelligence, Aptitude
 
 			if(i == 4){
-				characterSkills[i] = new CharacterSkill("Intimidate", 9, 9, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Intimidate", characterAbilities[2].value, characterAbilities[0].value, characterAbilities[5].value);
+			} // Charisma, Strength, Aptitude
 
 			if(i == 5){
-				characterSkills[i] = new CharacterSkill("Heavy Melee", 9, 5, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Heavy Melee", characterAbilities[0].value, characterAbilities[4].value, characterAbilities[5].value);
+			} // Strength, Dexterity, Aptitude
 
 			if(i == 6){
-				characterSkills[i] = new CharacterSkill("Light Melee", 5, 9, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Light Melee", characterAbilities[4].value, characterAbilities[0].value, characterAbilities[5].value);
+			} // Dexterity, Strength, Aptitude
 
 			if(i == 7){
-				characterSkills[i] = new CharacterSkill("Light Ranged", 5, 4, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Light Ranged", characterAbilities[4].value, characterAbilities[3].value, characterAbilities[5].value);
+			} // Dexterity, Agility, Aptitude
 
 			if(i == 8){
-				characterSkills[i] = new CharacterSkill("Heavy Ranged", 5, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Heavy Ranged", characterAbilities[4].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Dexterity, Perception, Aptitude
 
 			if(i == 9){
-				characterSkills[i] = new CharacterSkill("Hacking", 8, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Hacking", characterAbilities[1].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Intelligence, Perception, Aptitude
 
 			if(i == 10){
-				characterSkills[i] = new CharacterSkill("Engineering", 8, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Engineering", characterAbilities[1].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Intelligence, Perception, Aptitude
 
 			if(i == 11){
-				characterSkills[i] = new CharacterSkill("Piloting", 6, 4, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Piloting", characterAbilities[6].value, characterAbilities[3].value, characterAbilities[5].value);
+			} // Perception, Agility, Aptitude
 
 			if(i == 12){
-				characterSkills[i] = new CharacterSkill("Medicine", 8, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Medicine", characterAbilities[1].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Intelligence, Perception, Aptitude
 
 			if(i == 13){
-				characterSkills[i] = new CharacterSkill("Athletics", 9, 4, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Athletics", characterAbilities[0].value, characterAbilities[3].value, characterAbilities[5].value);
+			} // Strength, Agility, Aptitude
 
 			if(i == 14){
-				characterSkills[i] = new CharacterSkill("Insight", 8, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Insight", characterAbilities[1].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Intelligence, Perception, Aptitude
 
 			if(i == 15){
-				characterSkills[i] = new CharacterSkill("Memory", 6, 8, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Memory", characterAbilities[6].value, characterAbilities[1].value, characterAbilities[5].value);
+			} // Perception, Intelligence, Aptitude
 
 			if(i == 16){
-				characterSkills[i] = new CharacterSkill("Bluff", 4, 4, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Bluff", characterAbilities[2].value, characterAbilities[2].value, characterAbilities[5].value);
+			} // Charisma, Charisma, Aptitude
 
 			if(i == 17){
-				characterSkills[i] = new CharacterSkill("Thievery", 5, 5, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Thievery", characterAbilities[4].value, characterAbilities[4].value, characterAbilities[5].value);
+			} // Dexterity, Dexterity, Aptitude
 
 			if(i == 18){
-				characterSkills[i] = new CharacterSkill("Ecology", 6, 8, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Ecology", characterAbilities[6].value, characterAbilities[1].value, characterAbilities[5].value);
+			} // Perception, Intelligence, Aptitude
 
 			if(i == 19){
-				characterSkills[i] = new CharacterSkill("Search", 6, 6, 5);
-			}
+				characterSkills[i] = new CharacterSkill("Search", characterAbilities[6].value, characterAbilities[6].value, characterAbilities[5].value);
+			} // Perception, Perception, Aptitude
 		}
 
 	}
