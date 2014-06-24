@@ -8,20 +8,9 @@ public class PlayerTest {
 
 
 
-		System.out.println("Name:  \t\t" + player.characterBasics.getName());
-		System.out.println("Age:  \t\t" + player.characterBasics.getAge());
-		System.out.println("Race:  \t\t" + player.characterBasics.getRace());
-		System.out.println("Height: \t" + player.characterBasics.getHeight());
-		System.out.println("Weight: \t" + player.characterBasics.getWeight());
-		System.out.println("Eye Colour: \t" + player.characterBasics.getEye_colour());
-		System.out.println("Hair Colour: \t" + player.characterBasics.getHair_colour());
-		System.out.println();
+		player.printCharacterSheet();
 
-		System.out.println("ABILITIES:");
-		player.printAbilities();
-		System.out.println();
-		System.out.println("SKILLS:");
-		player.printSkills();
+
 
 	}
 
