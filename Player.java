@@ -3,7 +3,6 @@
  */
 
 public class Player {
-
 	CharacterBasics[] characterBasics = new CharacterBasics[5];
 	CharacterAbility[] characterAbilities = new CharacterAbility[7];
 	CharacterSkill[] characterSkills = new CharacterSkill[20];
